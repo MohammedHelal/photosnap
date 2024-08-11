@@ -23,7 +23,7 @@ function Footer() {
           text="get an invite"
         />
         <p className="text-slate-500 text-center">
-          Coyright 2019: All Rights Reserved
+          Coyright 2024: All Rights Reserved
         </p>
       </div>
     </footer>
