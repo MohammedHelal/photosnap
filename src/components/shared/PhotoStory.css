@@ -1,0 +1,5 @@
+.fancy-container:hover > .fancy-border {
+  padding: 3px;
+  background-image: linear-gradient(to bottom left, #5a77ff, #bc7198, #ffc593);
+  transform: translateY(-2rem);
+}
