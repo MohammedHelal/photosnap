@@ -15,10 +15,11 @@ export default function Page() {
           desktop: moon,
         }}
         classes={{
-          img: "object-cover object-center md:absolute md:top-0 md:bottom-0 md:right-0 md:left-0 md:h-[500px] xl:h-[650px] md:w-full md:z-10 ",
+          img: "object-cover object-center md:absolute md:top-0 md:bottom-0 md:right-0 md:left-0 md:h-[500px] xl:h-[650px] md:w-full md:-z-10 ",
           article:
             "bg-black md:bg-inherit text-white md:h-[500px] xl:h-[650px]",
         }}
+        hideBar={true}
       >
         <h4 className="uppercase z-20">Last month&apos;s featured story</h4>
         <h1 className="uppercase z-20">Hazy full moon of Appalachia</h1>

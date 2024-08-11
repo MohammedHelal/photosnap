@@ -2,11 +2,12 @@ import logo from "@/assets/shared/desktop/logo.svg";
 import DropDown from "./DropDown";
 import Image from "next/image";
 import NavList from "../shared/NavList";
+import Logo from "../shared/Logo";
 
 function Nav() {
   return (
     <nav className="h-[72px] px-[25px] py-[24px] md:py-[4px] flex justify-between items-center md:justify-evenly">
-      <Image src={logo} alt="Photsnap logo" className="" />
+      <Logo black={true} />
       <DropDown>
         <NavList listClasses="border-b-2 border-slate-300" />
         <button

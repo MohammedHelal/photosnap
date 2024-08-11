@@ -15,6 +15,7 @@ function Beautiful() {
         desktop: beautifulDesktop,
       }}
       classes={{ img: "w-full", article: "" }}
+      hideBar={true}
     >
       <h1 className="uppercas my-[15px]">Designed for everyone</h1>
       <p className="text-slate-500">

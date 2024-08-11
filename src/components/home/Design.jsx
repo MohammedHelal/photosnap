@@ -18,6 +18,7 @@ function Design() {
         img: "w-full md:order-2",
         article: "order-1",
       }}
+      hideBar={true}
     >
       <h1 className="uppercase">Beautiful stories every time</h1>
       <p className="text-slate-500">
