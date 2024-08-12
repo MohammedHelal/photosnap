@@ -15,7 +15,10 @@ function Beta() {
         classes="absolute top-0 bottom-0 right-0 left-0 -z-10"
       />
 
-      <article className="text-center md:text-left w-full px-[25px] py-[50px] md:flex md:items-center md:justify-between xl:px-[150px] z-10">
+      <article className="w-full px-[25px] py-[50px] md:flex md:items-center md:justify-between xl:px-[150px] z-10">
+        <div
+          className={`w-[128px] md:w-auto absolute top-0 md:bottom-0 md:left-0 fancy-bar box-decoration-clone`}
+        ></div>
         <h1 className="max-w-[400px] uppercase z-10 text-white">
           We&apos;re in beta. Get your invite today!
         </h1>

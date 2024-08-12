@@ -43,12 +43,25 @@ h4 {
   margin: 15px 0;
 }
 
+h5 {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 2px;
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
 p {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0px;
   margin: 15px 0;
+}
+
+td {
+  min-width: 75px;
 }
 
 .fancy-bar {
@@ -74,5 +87,9 @@ p {
     font-size: 30px;
     font-weight: 600;
     line-height: 36px;
+  }
+
+  td {
+    display: inline-block;
   }
 }

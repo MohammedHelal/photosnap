@@ -1,7 +1,9 @@
 import ImageAndTextContainer from "@/components/shared/ImageAndTextContainer";
 import Beta from "@/components/shared/Beta";
 import PaymentContainer from "@/components/pricing/PaymentContainer";
+import Compare from "@/components/pricing/Compare";
 
+//importing Hero images...
 import hero from "@/assets/pricing/desktop/hero.jpg";
 import heroTablet from "@/assets/pricing/tablet/hero.jpg";
 import heroMobile from "@/assets/pricing/mobile/hero.jpg";
@@ -28,6 +30,7 @@ export default function Page() {
         </p>
       </ImageAndTextContainer>
       <PaymentContainer />
+      <Compare />
       <Beta />
     </>
   );
