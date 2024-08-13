@@ -24,6 +24,11 @@ export default function DropDown() {
           <div className="w-full px-[25px] py-[10px] bg-white h-[250px]">
             <ul className={`list-none py-[10px] border-b-2 border-slate-300`}>
               <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500 ">
+                <Link href="/" onClick={() => toggleDropDown(false)}>
+                  <h4 className="my-0">home</h4>
+                </Link>
+              </li>
+              <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500 ">
                 <Link href="/stories" onClick={() => toggleDropDown(false)}>
                   <h4 className="my-0">stories</h4>
                 </Link>
@@ -40,7 +45,7 @@ export default function DropDown() {
               </li>
             </ul>
             <button
-              className={`w-full uppercase block py-[15px] mt-[20px] text-white hover:text-black bg-black hover:bg-slate-300 cursor-pointer`}
+              className={`w-full uppercase block py-[15px] mt-[12px] text-white hover:text-black bg-black hover:bg-slate-300 cursor-pointer`}
             >
               <h4 className="my-0">get an invite</h4>
             </button>
