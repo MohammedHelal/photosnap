@@ -23,7 +23,7 @@ export default function Page() {
         }}
       >
         <h1 className="uppercase">Pricing</h1>
-        <p className="text-slate-500">
+        <p className="text-slate-400">
           Create your stories, Photosnap is a platform for photographers and
           visual storytellers. It’s the simple way to create and share your
           photos.

@@ -20,7 +20,7 @@ function Hero() {
       }}
     >
       <h1 className="uppercase">Create and share your photo Stories</h1>
-      <p className="text-slate-500">
+      <p className="text-slate-400">
         Photosnap is a platform for photographers and visual storytellers. We
         make it easy to share photos, tell stories and connect with others.
       </p>

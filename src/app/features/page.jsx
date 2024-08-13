@@ -22,7 +22,7 @@ export default function Page() {
         }}
       >
         <h1 className="uppercase">Features</h1>
-        <p className="text-slate-500">
+        <p className="text-slate-400">
           We make sure all of our features are designed to be loved by every
           aspiring and even professional photograpers who wanted to share their
           stories.
