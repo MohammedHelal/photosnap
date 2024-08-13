@@ -17,7 +17,7 @@ import PhotoStory from "../shared/PhotoStory";
 function PhotoStoryGrid() {
   return (
     <div className="w-full fancy-background">
-      <section className="max-w-[1440px] mx-auto grid md:grid-cols-2 xl:grid-cols-4">
+      <section className="max-w-[1440px] mx-auto flex flex-col items-center md:grid md:grid-cols-2 xl:grid-cols-4">
         <PhotoStory
           image={{
             mobile: mountainsMobile,

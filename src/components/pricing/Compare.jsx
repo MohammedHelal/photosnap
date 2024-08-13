@@ -21,7 +21,7 @@ export default function Compare() {
         </thead>
         <tbody>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 w-full md:w-auto md:px-6">
               <h4 className="uppercase mb-0 md:mb-[15px]">
                 Unlimited Story Posting
               </h4>
@@ -76,7 +76,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">
                 Unlimited Photo Upload
               </h4>
@@ -131,7 +131,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">
                 Embedding Custom Content
               </h4>
@@ -174,7 +174,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">
                 Customize Metadata
               </h4>
@@ -217,7 +217,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">Advanced Metrics</h4>
             </td>
             <td className="mb-3 py-2 px-3">
@@ -246,7 +246,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">Photo Downloads</h4>
             </td>
             <td className="mb-3 py-2 px-3">
@@ -275,7 +275,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">
                 Search Engine Indexing
               </h4>
@@ -306,7 +306,7 @@ export default function Compare() {
             </td>
           </tr>
           <tr className="border-b-2">
-            <td className="py-2 px-3 md:px-6">
+            <td className="py-2 px-3 md:px-6 w-full md:w-auto">
               <h4 className="uppercase mb-0 md:mb-[15px]">Custom Analytics</h4>
             </td>
             <td className="mb-3 py-2 px-3">

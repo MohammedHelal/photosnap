@@ -15,7 +15,7 @@ export default function Page() {
           desktop: moon,
         }}
         classes={{
-          img: "object-cover object-center md:absolute md:top-0 md:bottom-0 md:right-0 md:left-0 md:h-[500px] xl:h-[650px] md:w-full md:-z-10 ",
+          img: "object-cover object-center md:absolute md:top-0 md:bottom-0 md:right-0 md:left-0 md:h-[500px] xl:h-[650px] w-full md:-z-10 ",
           article:
             "bg-black md:bg-inherit text-white md:h-[500px] xl:h-[650px]",
         }}
@@ -40,7 +40,7 @@ export default function Page() {
         />
       </ImageAndTextContainer>
       <div className="w-full fancy-background">
-        <section className="max-w-[1440px] mx-auto grid md:grid-cols-2 xl:grid-cols-4">
+        <section className="max-w-[1440px] mx-auto flex flex-col items-center md:grid md:grid-cols-2 xl:grid-cols-4">
           {images.map((image) => {
             return (
               <>
