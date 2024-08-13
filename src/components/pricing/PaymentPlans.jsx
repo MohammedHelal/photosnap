@@ -2,7 +2,7 @@ import Plan from "./Plan";
 
 export default function PaymentPlans({ paymentDuration }) {
   return (
-    <section className="w-full px-[25px] xl:mx-[150px] xl:flex xl:items-center">
+    <section className="w-full px-[25px] xl:flex xl:items-center xl:justify-center">
       <Plan
         title="Basic"
         para="Includes basic usage of our platform. Recommended for new and aspiring photographers."

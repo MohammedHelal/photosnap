@@ -7,14 +7,13 @@ import betaMobile from "@/assets/shared/mobile/bg-beta.jpg";
 
 function Beta() {
   return (
-    <section className="relative w-full h-[280px]">
+    <section className="relative w-full">
       <ResponsiveImage
         mobile={betaMobile}
         tablet={betaTablet}
         desktop={beta}
-        classes="absolute top-0 bottom-0 right-0 left-0 -z-10"
+        classes="absolute top-0 bottom-0 right-0 left-0 w-full h-auto -z-10"
       />
-
       <article className="w-full px-[25px] py-[50px] md:flex md:items-center md:justify-between xl:px-[150px] z-10">
         <div
           className={`w-[128px] md:w-auto absolute top-0 md:bottom-0 md:left-0 fancy-bar box-decoration-clone`}

@@ -39,20 +39,22 @@ export default function Page() {
           text="get an invite"
         />
       </ImageAndTextContainer>
-      <section className="grid md:grid-cols-2 xl:grid-cols-4">
-        {images.map((image) => {
-          return (
-            <>
-              <PhotoStory
-                image={image.images}
-                title={image.title}
-                by={image.by}
-                date={image.date}
-              />
-            </>
-          );
-        })}
-      </section>
+      <div className="w-full fancy-background">
+        <section className="max-w-[1440px] mx-auto grid md:grid-cols-2 xl:grid-cols-4">
+          {images.map((image) => {
+            return (
+              <>
+                <PhotoStory
+                  image={image.images}
+                  title={image.title}
+                  by={image.by}
+                  date={image.date}
+                />
+              </>
+            );
+          })}
+        </section>
+      </div>
     </>
   );
 }
