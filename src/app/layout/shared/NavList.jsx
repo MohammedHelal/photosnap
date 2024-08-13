@@ -4,27 +4,27 @@ export default function NavList({ listClasses, footer }) {
     <>
       <ul className={`list-none py-[10px] ${listClasses}`}>
         {footer && (
-          <Link href="/">
-            <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500 ">
-              <h4 className="my-0">home</h4>
-            </li>
-          </Link>
-        )}
-        <Link href="/stories">
           <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500 ">
+            <Link href="/">
+              <h4 className="my-0">home</h4>
+            </Link>
+          </li>
+        )}
+        <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500 ">
+          <Link href="/stories">
             <h4 className="my-0">stories</h4>
-          </li>
-        </Link>
-        <Link href="/features">
-          <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500">
+          </Link>
+        </li>
+        <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500">
+          <Link href="/features">
             <h4 className="my-0">features</h4>
-          </li>
-        </Link>
-        <Link href="/pricing">
-          <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500">
+          </Link>
+        </li>
+        <li className="text-center py-[10px] px-[15px] uppercase cursor-pointer hover:text-slate-500">
+          <Link href="/pricing">
             <h4 className="my-0">pricing</h4>
-          </li>
-        </Link>
+          </Link>
+        </li>
       </ul>
     </>
   );
